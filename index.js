@@ -1,3 +1,5 @@
+document.ontouchmove = (e) => e.preventDefault();
+
 let url = "https://sleepy-peak-96457.herokuapp.com/http://api.open-notify.org/astros.json";
 let people = [];
 
