@@ -3,7 +3,6 @@ html,
 body,
 * {
   touch-action: none;
-  user-select: none;
   -ms-touch-action: none;
   overflow: hidden;
 }
@@ -29,6 +28,7 @@ h1 {
   text-align: center;
   font-family: "Source Code Pro", monospace;
   margin: 0.5em;
+  user-select: none;
 }
 p {
   font-size: 3em;
