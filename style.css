@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap");
+body {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+#container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+}
+p,
+h1 {
+  color: yellow;
+  text-align: center;
+  font-family: "Source Code Pro", monospace;
+  margin: 0.5em;
+}
+p {
+  font-size: 3em;
+  font-weight: bold;
+}
+#bg-sketch {
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: -1;
+}
