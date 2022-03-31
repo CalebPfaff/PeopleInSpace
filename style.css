@@ -1,9 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap");
+html,
+body,
+* {
+  touch-action: none;
+  -ms-touch-action: none;
+  overflow: hidden;
+}
+
 body {
   -ms-overflow-style: none;
   scrollbar-width: none;
-  touch-action: none;
-  -ms-touch-action: none;
 }
 
 body::-webkit-scrollbar {
