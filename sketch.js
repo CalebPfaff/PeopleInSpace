@@ -4,7 +4,7 @@ let maxStars = 200;
 let astroSpeed = 1;
 
 function setup() {
-  let cnv = createCanvas((w = windowWidth), (h = windowHeight));
+  let cnv = createCanvas((w = window.innerWidth), (h = window.innerHeight));
   p5.DisableFriendlyErrors = true;
   cnv.parent("bg-sketch");
   colorMode(HSB);
