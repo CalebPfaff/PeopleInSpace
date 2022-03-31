@@ -1,4 +1,4 @@
-let url = "http://api.open-notify.org/astros.json";
+let url = "https://sleepy-peak-96457.herokuapp.com/http://api.open-notify.org/astros.json";
 let people = [];
 
 async function fetchDataAsync(url) {
