@@ -5,6 +5,11 @@ body,
   touch-action: none;
   -ms-touch-action: none;
   overflow: hidden;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -o-user-select: none;
+  user-select: none;
 }
 
 body {
@@ -28,7 +33,6 @@ h1 {
   text-align: center;
   font-family: "Source Code Pro", monospace;
   margin: 0.5em;
-  user-select: none;
 }
 p {
   font-size: 3em;
